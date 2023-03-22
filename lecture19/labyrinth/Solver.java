@@ -4,7 +4,6 @@ public class Solver {
     
         Queue<String> q = new LinkedQueue<String>();
         q.enqueue("");
-        boolean found = false;
         while(!q.isEmpty()){
             String s = q.dequeue();
             if(labyrinth.checkPath(s)){
