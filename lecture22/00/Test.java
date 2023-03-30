@@ -24,7 +24,7 @@ public class Test {
 
 		int sizeOfTest = 100000;
 		for (int i=0; i< sizeOfTest; i++) {
-			l.addFirst(new Integer(i));
+			l.addFirst(i);
 		}
 
 		System.out.println("Time with method \"fromInside\": " + l.fromInside());
