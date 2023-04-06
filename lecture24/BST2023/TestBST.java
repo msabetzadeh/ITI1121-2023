@@ -4,10 +4,16 @@ public class TestBST {
 	
 		t.add(8);
 		t.add(5);
+		t.add(5);
 		t.add(15);
-		t.add(9);
-		t.add(29);
-		t.add(11);
+		t.add(2);
+		t.add(7);
+		t.add(12);
+		t.add(29);	
+		t.add(13);
+		t.add(50);
+		t.add(1);
+		t.add(4);	
 	
 		System.out.println(t);
 
