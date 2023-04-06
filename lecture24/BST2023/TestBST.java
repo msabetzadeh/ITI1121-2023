@@ -11,6 +11,10 @@ public class TestBST {
 	
 		System.out.println(t);
 
+		System.out.println("Contains 15? " + t.contains(15));
+		System.out.println("Contains 22? " + t.contains(22));
+
+
 		System.out.print( "preOrder ->" );
 		t.preOrder();
 
@@ -33,8 +37,11 @@ public class TestBST {
 		t.add("b");
 		t.add("l");
 		t.add("n");
-
+		
 		System.out.println(t);
+
+		System.out.println("Contains v? " + t.contains("v"));
+		System.out.println("Contains r? " + t.contains("r"));
 
 		System.out.print( "preOrder ->" );
 		t.preOrder();
